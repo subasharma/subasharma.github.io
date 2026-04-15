@@ -83,6 +83,36 @@
         .experience-item, .education-item { margin-bottom: 25px; }
         ul { margin-top: 10px; padding-left: 20px; }
         li { margin-bottom: 8px; }
+        .intro-text { font-size: 1.1em; color: var(--primary); }
+        
+        /* Details and Summary styling */
+        details {
+            background: #f8f9fa; 
+            padding: 15px; 
+            border-radius: 8px; 
+            margin-bottom: 15px; 
+            border: 1px solid #e1e8ed; 
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        details:hover {
+            border-color: var(--secondary);
+        }
+        summary {
+            font-weight: bold; 
+            color: var(--secondary); 
+            font-size: 1.1em;
+            outline: none;
+        }
+        details > div {
+            margin-top: 15px; 
+            color: #444; 
+            line-height: 1.6; 
+            cursor: default;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+    </details>
     </style>
 </head>
 <body>
@@ -101,83 +131,4 @@
                     <span>•</span>
                     <a href="https://www.linkedin.com/in/subasharma" target="_blank">LinkedIn</a>
                     <span>•</span>
-                    <a href="https://scholar.google.co.uk/citations?user=H519B1AAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                </div>
-            </div>
-        </div>
-
-        <h2>About Me</h2>
-        <p>I am a materials scientist with expertise in large-area graphene and 2D materials synthesis. With 12+ years of experience in Transmission Electron Microscopy (TEM), I have extensively studied metal-carbon interactions during nanoscale graphene formation. At the Cambridge Graphene Centre, I worked on the large-scale growth of 2D materials, including graphene, hexagonal boron nitride (hBN), and transition metal dichalcogenides.</p>
-        <p>My core interests include battery and energy storage technologies, where I successfully developed a technique to achieve atomic-level resolution of individual Li atoms without the use of cryogenic conditions in TEM. I am an innovative, logical thinker with a proven track record of leadership, ready to apply scientific reasoning to complex academic and industrial challenges.</p>
-
-        <h2>Professional Experience</h2>
-        
-        <div class="experience-item">
-            <div class="job-title">Electron Microscopy Specialist</div>
-            <div><span class="institution">University of Bristol</span> | <span class="date">Jul 2024 - Present</span></div>
-            <ul>
-                <li>Design and conduct independent operando TEM experiments to observe growth and transformation at the nanoscale.</li>
-                <li>Support advanced (S)TEM research projects across the Faculty of Science and deliver structured training programmes in TEM theory and practice.</li>
-            </ul>
-        </div>
-
-        <div class="experience-item">
-            <div class="job-title">Research Scientist / Materials Process Engineer</div>
-            <div><span class="institution">Advanced Furnace Technology Ltd</span> | <span class="date">Dec 2023 - Jun 2024</span></div>
-            <ul>
-                <li>Led the development of large-scale TaC-based MOCVD susceptors for SiC epitaxy.</li>
-                <li>Bridged R&D and engineering: ensuring repeatability, throughput, safety, and practical manufacturability for high-temperature applications.</li>
-            </ul>
-        </div>
-
-        <div class="experience-item">
-            <div class="job-title">Postdoctoral Research Associate</div>
-            <div><span class="institution">University of Cambridge (Cambridge Graphene Centre)</span> | <span class="date">Dec 2019 - Dec 2023</span></div>
-            <ul>
-                <li>Led work packages within the EU Graphene Flagship programme.</li>
-                <li>Developed and optimized 200 mm wafer-scale CVD synthesis and polymer-assisted transfer of graphene, hBN, and TMDCs.</li>
-            </ul>
-        </div>
-
-        <div class="experience-item">
-            <div class="job-title">Postdoctoral Researcher / Engineer</div>
-            <div><span class="institution">Nagoya Institute of Technology</span> | <span class="date">Apr 2015 - Nov 2019</span></div>
-            <ul>
-                <li>Performed operando TEM synthesis and assembly of graphene and carbon nanotube structures.</li>
-                <li>Systematically investigated catalytic carbon transformations across multiple metal systems and demonstrated low-temperature graphene synthesis.</li>
-            </ul>
-        </div>
-
-        <h2>Education & Certifications</h2>
-        <div class="education-item">
-            <div class="job-title">Ph.D. in Electrical and Electronics Engineering</div>
-            <div><span class="institution">Nagoya Institute of Technology</span> | <span class="date">2012 - 2015</span></div>
-            <ul>
-                <li>Thesis focused on synthesizing high-quality graphene from waste plastic using CVD and controlling hBN crystal morphology.</li>
-            </ul>
-        </div>
-        <div class="education-item">
-            <div class="job-title">Master of Engineering</div>
-            <div><span class="institution">Chubu University</span> | <span class="date">2012</span></div>
-            <ul>
-                <li>Focused on plasma physics, production of TiN/TiO2 films, and their properties.</li>
-            </ul>
-        </div>
-        <div class="education-item">
-            <div class="job-title">B.Sc. in Physics</div>
-            <div><span class="institution">Tribhuvan University</span> | <span class="date">2008</span></div>
-        </div>
-        <div class="education-item">
-            <div class="job-title">Machine Learning Certification</div>
-            <div><span class="institution">DeepLearning.AI</span> | <span class="date">Credential ID: 9G6WGJ2R9D3N</span></div>
-        </div>
-
-        <h2>Research Impact & Core Expertise</h2>
-        <ul>
-            <li><strong>Publications:</strong> Over 40 peer-reviewed publications (h-index: 19) spanning nano-scale mechanisms and materials engineering.</li>
-            <li><strong>Advanced Microscopy:</strong> Expert in (S)TEM operation (HRTEM, HAADF-STEM), EELS, EDX, SAED, and dynamic operando mechanisms.</li>
-            <li><strong>Instrumentation:</strong> Extensive operational expertise with JEOL JEM ARM 200F, JEOL 2100, FEI Osiris, and FEI Tecnai.</li>
-        </ul>
-    </div>
-</body>
-</html>
+                    <a href="
