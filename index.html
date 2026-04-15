@@ -28,8 +28,6 @@
             border-radius: 12px; 
             box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
         }
-        
-        /* --- HEADER LAYOUT FOR PHOTO --- */
         .header-container {
             display: flex;
             align-items: center;
@@ -68,14 +66,10 @@
         }
         .contact a { color: var(--secondary); text-decoration: none; font-weight: bold; }
         .contact a:hover { text-decoration: underline; }
-
-        /* Mobile adjustments */
         @media (max-width: 600px) {
             .header-container { flex-direction: column; text-align: center; }
             .contact { justify-content: center; }
         }
-
-        /* Rest of the styling */
         h2 { color: var(--secondary); margin-top: 35px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
         .job-title { font-weight: bold; font-size: 1.15em; color: var(--primary); }
         .institution { color: var(--accent); font-weight: bold; }
@@ -84,8 +78,6 @@
         ul { margin-top: 10px; padding-left: 20px; }
         li { margin-bottom: 8px; }
         .intro-text { font-size: 1.1em; color: var(--primary); }
-        
-        /* Details and Summary styling */
         details {
             background: #f8f9fa; 
             padding: 15px; 
@@ -122,55 +114,63 @@
             
             <div class="header-text">
                 <h1>Dr. Subash Sharma</h1>
-                <div class="title">Materials Scientist & Electron Microscopy Specialist</div>
+                <div class="title">Materials Scientist | AI-Driven Materials Discovery | Electron Microscopy</div>
                 <div class="contact">
                     <span>University of Bristol</span>
-                    <span>•</span>
+                    <span>&bull;</span>
                     <span>subash.sharma@bristol.ac.uk</span>
-                    <span>•</span>
+                    <span>&bull;</span>
                     <a href="https://www.linkedin.com/in/subasharma" target="_blank">LinkedIn</a>
-                    <span>•</span>
+                    <span>&bull;</span>
                     <a href="https://scholar.google.co.uk/citations?user=H519B1AAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                    <span>&bull;</span>
+                    <a href="https://orcid.org/0000-0002-8783-3587" target="_blank">ORCID</a>
                 </div>
             </div>
         </div>
 
         <h2>About Me</h2>
-        <p class="intro-text"><strong>I watch atoms move.</strong></p>
-        <p>I am an electron microscopy specialist and materials scientist at the University of Bristol. Using operando TEM, I observe how catalysts transform disordered carbon into graphene in real time, and I use that understanding to turn waste plastic into valuable materials.</p>
-        <p>Over 12 years across Nepal, Japan, and the UK, I have studied ten different metal catalyst systems and pioneered waste-to-graphene CVD (<em>Carbon 2014</em>, 210+ citations). At Cambridge, I led EU Graphene Flagship work packages, and I currently build AI tools for automated diffraction analysis. My research has resulted in 40+ publications, >1,000 citations, and an h-index of 19.</p>
+        <p class="intro-text"><strong>I watch atoms move, and I teach machines to predict what they will do next.</strong></p>
+        <p>I am a materials scientist and electron microscopy specialist at the University of Bristol. Using in situ TEM, I apply bias voltage and heat to metals in contact with amorphous carbon and observe what happens in real time: graphitisation, electromigration, catalytic nanotube growth, and nano-soldering of carbon nanostructures. I have worked through ten different metal catalyst systems one by one and published on each.</p>
+        <p>Over 12 years across Nepal, Japan, and the UK, I pioneered waste-to-graphene CVD (<em>Carbon</em> 2014, 200+ citations), demonstrated graphene synthesis at record low temperatures (150&deg;C with In, 180&deg;C with Sn), and led EU Graphene Flagship work packages delivering 200 mm wafer-scale 2D material synthesis at Cambridge. I recently built an AI-powered materials discovery platform that processes scientific literature using large language models and cross-references against 200,000+ computational predictions to identify novel synthesis targets. My research has resulted in 50+ publications, over 1,000 citations, and an h-index of 19.</p>
 
         <h2>Core Research Interests</h2>
         
         <details>
-            <summary>🔬 Advanced Electron Microscopy & Operando TEM</summary>
+            <summary>&#x1F52C; In Situ TEM and Metal-Carbon Dynamics</summary>
             <div>
-                <p>My work pushes the boundaries of nanoscale observation by visualizing reactions as they happen. I specialize in designing and conducting in-situ heating and biasing experiments.</p>
+                <p>I specialise in visualising nanoscale reactions as they happen, using in situ heating and electrical biasing inside the TEM. Over 12 years I have systematically studied the interaction of ten different metals with amorphous carbon under applied bias voltage, directly observing real-time graphitisation, electromigration, catalytic nanotube growth, and nano-soldering of carbon nanostructures.</p>
                 <ul>
-                    <li>Achieved atomic-level resolution of individual Li atoms without cryogenic conditions.</li>
-                    <li>Extensive expertise with JEOL JEM ARM 200F and FEI Osiris systems.</li>
+                    <li>Ten metal systems studied individually (Fe, Ni, Cu, Mo, Sn, In, Ga, Co, Pd, CuNi alloy), with first-author or corresponding-author publications on each.</li>
+                    <li>Techniques: HRTEM, HAADF-STEM, EELS, EDX, SAED, cryo-TEM, EFTEM, operando heating and biasing holders.</li>
+                    <li>Instruments: JEOL JEM ARM 200F, JEOL 2100, FEI Osiris, FEI Tecnai.</li>
                 </ul>
             </div>
         </details>
 
         <details>
-            <summary>⚛️ 2D Materials Synthesis</summary>
+            <summary>&#x269B; 2D Materials Synthesis and Waste-to-Graphene CVD</summary>
             <div>
-                <p>I have extensive experience in the scalable growth of next-generation materials, driven by my work at the Cambridge Graphene Centre and Nagoya Institute of Technology.</p>
+                <p>Extensive experience in scalable growth of 2D materials, from wafer-scale CVD at the Cambridge Graphene Centre to pioneering waste-derived graphene conversion.</p>
                 <ul>
-                    <li>Wafer-scale (200mm) CVD synthesis of graphene, hBN, and TMDCs.</li>
-                    <li>Pioneered waste-to-graphene CVD techniques (Carbon 2014, 210+ citations).</li>
+                    <li>Wafer-scale (200 mm) CVD synthesis and transfer of graphene, hBN, MoS<sub>2</sub>, and WS<sub>2</sub> within the EU Graphene Flagship. Commissioned an AIXTRON MOCVD reactor for pilot-scale growth.</li>
+                    <li>Pioneered waste-to-graphene CVD from solid waste plastic (<em>Carbon</em> 2014, 200+ citations), extended to waste chicken fat, camphor, tangerine peel oil, and waste latex.</li>
+                    <li>Demonstrated graphene synthesis at record low temperatures: 150&deg;C (In catalyst) and 180&deg;C (Sn catalyst).</li>
+                    <li>Co-authored rapid microwave plasma CVD enabling graphene growth in under 40 seconds at below 600&deg;C.</li>
                 </ul>
             </div>
         </details>
 
         <details>
-            <summary>🤖 AI-Based Materials Discovery</summary>
+            <summary>&#x1F916; AI-Driven Materials Discovery</summary>
             <div>
-                <p>Bridging materials science with artificial intelligence to accelerate the analysis of massive characterization datasets.</p>
+                <p>Bridging materials science with artificial intelligence to accelerate the discovery of novel functional materials.</p>
                 <ul>
-                    <li>Building AI tools for automated diffraction analysis.</li>
-                    <li>Applying machine learning models to optimize catalyst-mediated carbon transformations.</li>
+                    <li>Built SSB-CrossRef, a 17,000-line Python platform that processes scientific literature using LLMs, cross-references against 200,000+ computational predictions (GNoME, Materials Project), and identifies novel synthesis targets with automated thermodynamic due diligence.</li>
+                    <li>Processed 997 papers, extracted 3,009 unique compositions, built 56,000+ cross-reference links. Over 95% of AI-predicted candidates failed experimental reality checks.</li>
+                    <li>Built validated XRD and SAED diffraction simulators and automated SAED phase identification software.</li>
+                    <li>Data-driven synthesis route recommender using patterns from 2,000+ extracted literature records.</li>
+                    <li>Machine Learning Certification, DeepLearning.AI (Credential ID: 9G6WGJ2R9D3N).</li>
                 </ul>
             </div>
         </details>
@@ -181,55 +181,64 @@
             <div class="job-title">Electron Microscopy Specialist</div>
             <div><span class="institution">University of Bristol</span> | <span class="date">Jul 2024 - Present</span></div>
             <ul>
-                <li>Design and conduct independent operando TEM experiments to observe growth and transformation at the nanoscale.</li>
-                <li>Support advanced (S)TEM research projects across the Faculty of Science and deliver structured training programmes in TEM theory and practice.</li>
+                <li>Design and conduct independent operando TEM experiments (heating and biasing holders) to observe growth, transformation, and property evolution at the nanoscale across the Faculty of Science.</li>
+                <li>Built AI-powered cross-domain materials discovery platform (SSB-CrossRef) for identifying novel solid-state electrolytes and high-entropy alloys through automated literature mining and computational cross-referencing.</li>
+                <li>Developed automated SAED phase identification software, validated XRD/SAED simulators, and data-driven synthesis recommender.</li>
+                <li>Design and deliver structured TEM training programmes; assess researcher competence through practical examination.</li>
+                <li>PI on UKRI Future Leaders Fellowship application; Lead on &pound;100,000 Faculty Strategic Research Accelerator.</li>
             </ul>
         </div>
 
         <div class="experience-item">
-            <div class="job-title">Research Scientist / Materials Process Engineer</div>
-            <div><span class="institution">Advanced Furnace Technology Ltd</span> | <span class="date">Dec 2023 - Jun 2024</span></div>
+            <div class="job-title">R&amp;D Engineer / Materials Process Engineer</div>
+            <div><span class="institution">Advanced Furnace Technology, Cambridge</span> | <span class="date">Dec 2023 - Jun 2024</span></div>
             <ul>
-                <li>Led the development of large-scale TaC-based MOCVD susceptors for SiC epitaxy.</li>
-                <li>Bridged R&D and engineering: ensuring repeatability, throughput, safety, and practical manufacturability for high-temperature applications.</li>
+                <li>Led process development for large-scale tantalum carbide (TaC) growth for high-temperature applications.</li>
+                <li>Contributed to furnace design and specification for industrial scale-up: repeatability, throughput, safety, and practical manufacturability.</li>
             </ul>
         </div>
 
         <div class="experience-item">
             <div class="job-title">Postdoctoral Research Associate</div>
-            <div><span class="institution">University of Cambridge (Cambridge Graphene Centre)</span> | <span class="date">Dec 2019 - Dec 2023</span></div>
+            <div><span class="institution">University of Cambridge (Cambridge Graphene Centre)</span> | <span class="date">Dec 2019 - Nov 2023</span></div>
             <ul>
-                <li>Led work packages within the EU Graphene Flagship programme.</li>
-                <li>Developed and optimized 200 mm wafer-scale CVD synthesis and polymer-assisted transfer of graphene, hBN, and TMDCs.</li>
+                <li>Led EU Graphene Flagship work packages, coordinating experimental activities across 14+ researchers at multiple European institutions, managing milestone delivery and EU reporting.</li>
+                <li>Developed 200 mm wafer-scale CVD synthesis and transfer of graphene, hBN, and TMDCs. Commissioned AIXTRON MOCVD reactor for pilot-scale 2D material growth.</li>
+                <li>Supervised PhD students through experimental design, data analysis, and publication preparation.</li>
+                <li>Contributed to TEM studies of graphene-based battery materials and terahertz photodetector heterostructures.</li>
             </ul>
         </div>
 
         <div class="experience-item">
-            <div class="job-title">Postdoctoral Researcher / Engineer</div>
+            <div class="job-title">Postdoctoral Researcher / Nanotechnology Platform Engineer</div>
             <div><span class="institution">Nagoya Institute of Technology</span> | <span class="date">Apr 2015 - Nov 2019</span></div>
             <ul>
-                <li>Performed operando TEM synthesis and assembly of graphene and carbon nanotube structures.</li>
-                <li>Systematically investigated catalytic carbon transformations across multiple metal systems and demonstrated low-temperature graphene synthesis.</li>
+                <li>In situ TEM studies of ten metal-carbon systems (Fe, Ni, Cu, Mo, Sn, In, Ga, Co, Pd, CuNi) under applied bias voltage: directly observed graphitisation, electromigration, catalytic nanotube growth, and nano-soldering. Published on each system individually.</li>
+                <li>Demonstrated graphene synthesis at record low temperatures: 150&deg;C (In catalyst), 180&deg;C (Sn catalyst).</li>
+                <li>Extended waste-to-graphene CVD to waste chicken fat, camphor, tangerine peel oil, and waste latex.</li>
+                <li>Co-authored rapid microwave plasma CVD: graphene growth in under 40 seconds at below 600&deg;C.</li>
+                <li>Mentored undergraduate and graduate students; several published first-author papers under my guidance.</li>
+                <li>Awarded Certified Senior Engineer, Nanotechnology Platform Japan (MEXT, 2019).</li>
             </ul>
         </div>
 
-        <h2>Education & Certifications</h2>
+        <h2>Education and Certifications</h2>
         <div class="education-item">
-            <div class="job-title">Ph.D. in Electrical and Electronics Engineering</div>
+            <div class="job-title">PhD in Engineering</div>
             <div><span class="institution">Nagoya Institute of Technology</span> | <span class="date">2012 - 2015</span></div>
             <ul>
-                <li>Thesis focused on synthesizing high-quality graphene from waste plastic using CVD and controlling hBN crystal morphology.</li>
+                <li>Thesis: Synthesis of graphene and hexagonal boron nitride using solid precursors by chemical vapour deposition. Advisor: Prof. Masaki Tanemura.</li>
             </ul>
         </div>
         <div class="education-item">
             <div class="job-title">Master of Engineering</div>
             <div><span class="institution">Chubu University</span> | <span class="date">2012</span></div>
             <ul>
-                <li>Focused on plasma physics, production of TiN/TiO2 films, and their properties.</li>
+                <li>Focused on plasma physics, production of TiN/TiO<sub>2</sub> films, and their properties.</li>
             </ul>
         </div>
         <div class="education-item">
-            <div class="job-title">B.Sc. in Physics</div>
+            <div class="job-title">BSc in Physics</div>
             <div><span class="institution">Tribhuvan University</span> | <span class="date">2008</span></div>
         </div>
         <div class="education-item">
@@ -237,11 +246,14 @@
             <div><span class="institution">DeepLearning.AI</span> | <span class="date">Credential ID: 9G6WGJ2R9D3N</span></div>
         </div>
 
-        <h2>Research Impact & Core Expertise</h2>
+        <h2>Research Impact</h2>
         <ul>
-            <li><strong>Publications:</strong> Over 40 peer-reviewed publications (h-index: 19) spanning nano-scale mechanisms and materials engineering.</li>
-            <li><strong>Advanced Microscopy:</strong> Expert in (S)TEM operation (HRTEM, HAADF-STEM), EELS, EDX, SAED, and dynamic operando mechanisms.</li>
-            <li><strong>Instrumentation:</strong> Extensive operational expertise with JEOL JEM ARM 200F, JEOL 2100, FEI Osiris, and FEI Tecnai.</li>
+            <li><strong>Publications:</strong> 50+ peer-reviewed outputs, h-index 19, i10-index 28, over 1,000 citations.</li>
+            <li><strong>Pioneering work:</strong> First demonstration of waste plastic to graphene via CVD (<em>Carbon</em> 2014, 200+ citations). Record low-temperature graphene synthesis (150&deg;C).</li>
+            <li><strong>AI platform:</strong> SSB-CrossRef processed 997 papers, 200,000+ computational predictions, identified genuinely novel solid-state electrolyte candidates.</li>
+            <li><strong>Advanced Microscopy:</strong> Expert in (S)TEM, EELS, EDX, SAED, cryo-TEM, EFTEM, and operando heating/biasing experiments.</li>
+            <li><strong>Instrumentation:</strong> JEOL JEM ARM 200F, JEOL 2100, FEI Osiris, FEI Tecnai, AIXTRON MOCVD, CVD systems.</li>
+            <li><strong>Peer review:</strong> Active reviewer for Nano Letters, Nanoscale, Carbon, ACS Applied Materials and Interfaces. Multiple Outstanding Reviewer awards.</li>
         </ul>
     </div>
 </body>
