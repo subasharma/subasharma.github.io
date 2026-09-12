@@ -1,0 +1,9 @@
+SUBASH SHARMA — ACADEMIC CV WEBSITE
+
+Extract this archive. Upload the contents (not the ZIP itself) to the folder your existing GitHub Pages site publishes. Keep every nested folder intact, including pagefind, css, js and uploads, and include .nojekyll and CNAME. Preserve any unrelated files your repository needs.
+
+Keep a backup or use Git history. Keep the Pages custom domain set to subashsharma.com. This ready-built archive uses branch-based Pages publishing.
+
+For long-term editing, use the separate Source archive and its README. That version builds automatically with GitHub Actions.
+
+The build and local-link checks passed. Nothing has been uploaded to your GitHub repository or published. Review desktop/mobile layout and try the menu, language switch, search, citations and CV download after hosting.
